@@ -1,0 +1,32 @@
+<suite name="BDD">
+    <listeners>
+        <listener class-name="utilities.TestNGListener"/>
+    </listeners>
+
+<!--     <test name="HomeAuthRevampAPIs">
+        <parameter name="IsAPI" value="true"/>
+        <classes>
+            <class name="utilities.ExtentReport"/>
+            <class name="api.tickets.configuration.ConfigurationRunner"/>
+        </classes>
+    </test> -->
+
+    <test name="HomeAndLogin">
+        <classes>
+            <class name="utilities.ExtentReport"/>
+            <class name="app.pages.PageObject"/>
+            <class name="app.tickets.login.LoginRunner"/>
+            <class name="app.tickets.loyalty.LoyaltyRunner"/>
+<!--            <class name="app.tickets.update.UpdateRunner"/> -->
+            <class name="app.tickets.usageConsumption.BalanceRunner"/>
+            <class name="app.tickets.team010.Team010Runner"/>
+            <class name="app.tickets.billCard.BillCardRunner"/>
+            <class name="app.tickets.usageConsumption.InternetRunner"/>
+            <class name="app.tickets.usageConsumption.RedQoutaRunner"/>
+            <class name="app.tickets.usagemanagment.MinandSmsRunner"/>
+            <class name="app.tickets.flexes.FlexRunner"/>
+            <class name="app.tickets.inaddons.InAddonRunner"/>
+            <class name="app.tickets.vov.VOVRunner"/>
+        </classes>
+    </test>
+</suite>

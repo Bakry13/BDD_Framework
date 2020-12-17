@@ -1,0 +1,20 @@
+<suite name="BDD">
+    <listeners>
+        <listener class-name="utilities.TestNGListener"/>
+    </listeners>
+
+    
+
+    <test name="HomeAuthRevampLogin">
+        <classes>
+            <class name="utilities.ExtentReport"/>
+            <class name="app.pages.PageObject"/>
+      <!--    <class name="app.tickets.usageConsumption.RedQoutaRunner"/> -->      
+     <!--        <class name="app.tickets.flexes.FlexRunner"/>  -->   
+       <!--       <class name="app.tickets.inaddons.InAddonRunner"/>  -->
+     <!--    <class name="app.tickets.usageConsumption.InternetRunner"/> --> 
+         <class name="app.tickets.usagemanagment.MinandSmsRunner"/>
+           
+        </classes>
+    </test>
+</suite>

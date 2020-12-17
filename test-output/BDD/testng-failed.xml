@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BDD]">
+  <listeners>
+    <listener class-name="utilities.TestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="HomeAndLogin_ENGLISH_ANDROID(failed)">
+    <parameter name="ReportName" value="HomeAndLogin_ENGLISH_ANDROID"/>
+    <parameter name="Language" value="ENGLISH"/>
+    <parameter name="Platform" value="ANDROID"/>
+    <classes>
+      <class name="app.tickets.inaddons.InAddonRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.inaddons.InAddonRunner -->
+      <class name="app.tickets.vov.VOVRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.vov.VOVRunner -->
+      <class name="app.tickets.flexes.FlexRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.flexes.FlexRunner -->
+    </classes>
+  </test> <!-- HomeAndLogin_ENGLISH_ANDROID(failed) -->
+  <test thread-count="5" name="HomeAndLogin_ENGLISH_IOS(failed)">
+    <parameter name="ReportName" value="HomeAndLogin_ENGLISH_IOS"/>
+    <parameter name="Language" value="ENGLISH"/>
+    <parameter name="Platform" value="IOS"/>
+    <classes>
+      <class name="app.tickets.billCard.BillCardRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.billCard.BillCardRunner -->
+      <class name="app.tickets.team010.Team010Runner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.team010.Team010Runner -->
+      <class name="app.tickets.usageConsumption.InternetRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.usageConsumption.InternetRunner -->
+      <class name="app.tickets.usageConsumption.BalanceRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.usageConsumption.BalanceRunner -->
+      <class name="app.tickets.inaddons.InAddonRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.inaddons.InAddonRunner -->
+      <class name="app.tickets.loyalty.LoyaltyRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.loyalty.LoyaltyRunner -->
+      <class name="app.tickets.vov.VOVRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.vov.VOVRunner -->
+      <class name="app.tickets.login.LoginRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.login.LoginRunner -->
+      <class name="app.tickets.usagemanagment.MinandSmsRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.usagemanagment.MinandSmsRunner -->
+      <class name="app.tickets.flexes.FlexRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.flexes.FlexRunner -->
+      <class name="app.tickets.usageConsumption.RedQoutaRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.usageConsumption.RedQoutaRunner -->
+    </classes>
+  </test> <!-- HomeAndLogin_ENGLISH_IOS(failed) -->
+  <test thread-count="5" name="HomeAndLogin_ARABIC_ANDROID(failed)">
+    <parameter name="ReportName" value="HomeAndLogin_ARABIC_ANDROID"/>
+    <parameter name="Language" value="ARABIC"/>
+    <parameter name="Platform" value="ANDROID"/>
+    <classes>
+      <class name="app.tickets.billCard.BillCardRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.billCard.BillCardRunner -->
+      <class name="app.tickets.usageConsumption.InternetRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario" invocation-numbers="0 1 2"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.usageConsumption.InternetRunner -->
+      <class name="app.tickets.inaddons.InAddonRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.inaddons.InAddonRunner -->
+      <class name="app.tickets.vov.VOVRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.vov.VOVRunner -->
+      <class name="app.tickets.usagemanagment.MinandSmsRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario" invocation-numbers="0 1 2"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.usagemanagment.MinandSmsRunner -->
+      <class name="app.tickets.flexes.FlexRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.flexes.FlexRunner -->
+      <class name="app.tickets.usageConsumption.RedQoutaRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.usageConsumption.RedQoutaRunner -->
+    </classes>
+  </test> <!-- HomeAndLogin_ARABIC_ANDROID(failed) -->
+  <test thread-count="5" name="HomeAndLogin_ARABIC_IOS(failed)">
+    <parameter name="ReportName" value="HomeAndLogin_ARABIC_IOS"/>
+    <parameter name="Language" value="ARABIC"/>
+    <parameter name="Platform" value="IOS"/>
+    <classes>
+      <class name="app.tickets.billCard.BillCardRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.billCard.BillCardRunner -->
+      <class name="app.tickets.team010.Team010Runner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.team010.Team010Runner -->
+      <class name="app.tickets.usageConsumption.InternetRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.usageConsumption.InternetRunner -->
+      <class name="app.tickets.usageConsumption.BalanceRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.usageConsumption.BalanceRunner -->
+      <class name="app.tickets.inaddons.InAddonRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.inaddons.InAddonRunner -->
+      <class name="app.tickets.loyalty.LoyaltyRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.loyalty.LoyaltyRunner -->
+      <class name="app.tickets.vov.VOVRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.vov.VOVRunner -->
+      <class name="app.tickets.login.LoginRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.login.LoginRunner -->
+      <class name="app.tickets.usagemanagment.MinandSmsRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.usagemanagment.MinandSmsRunner -->
+      <class name="app.tickets.flexes.FlexRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.flexes.FlexRunner -->
+      <class name="app.tickets.usageConsumption.RedQoutaRunner">
+        <methods>
+          <include name="appInit"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="clearDriver"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- app.tickets.usageConsumption.RedQoutaRunner -->
+    </classes>
+  </test> <!-- HomeAndLogin_ARABIC_IOS(failed) -->
+</suite> <!-- Failed suite [BDD] -->

@@ -1,0 +1,1019 @@
+<html>
+<head>
+<title>TestNG:  HomeAndLogin_ARABIC_ANDROID</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>HomeAndLogin_ARABIC_ANDROID</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/15/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 16 12:49:09 EET 2020</td>
+</tr>
+<tr><td>Total time:</td><td>417 seconds (417811 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='utilities.ExtentReport.clearDriver()'><b>clearDriver</b><br>Test class: utilities.ExtentReport</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at utilities.TestBase.clearDriver(TestBase.java:92)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace995030431", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace995030431'><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at sun.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at utilities.TestBase.clearDriver(TestBase.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.afterRun(TestRunner.java:725)
+	at org.testng.TestRunner.run(TestRunner.java:509)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>app.pages.PageObject@18bf3d14</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='app.tickets.billCard.BillCardRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.billCard.BillCardRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check bill card returned successfully", "Optional[bill card]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at utilities.Screenshot.capture(Screenshot.java:18)
+	at utilities.Screenshot.saveScreenshot(Screenshot.java:31)
+	at app.tickets.billCard.BillCardStepDef.user_view_bill_card(BillCardStepDef.java:37)
+	at ✽.user view bill card for &quot;PostPaid&quot;(file:///D:/Automation/BDDFramework/src/test/java/app/tickets/billCard/billCard.feature:7)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace483529787", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace483529787'><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at utilities.Screenshot.capture(Screenshot.java:18)
+	at utilities.Screenshot.saveScreenshot(Screenshot.java:31)
+	at app.tickets.billCard.BillCardStepDef.user_view_bill_card(BillCardStepDef.java:37)
+	at ✽.user view bill card for &quot;PostPaid&quot;(file:///D:/Automation/BDDFramework/src/test/java/app/tickets/billCard/billCard.feature:7)
+</pre></div></td>
+<td>29</td>
+<td>app.tickets.billCard.BillCardRunner@6ec8211c</td></tr>
+<tr>
+<td title='app.tickets.billCard.BillCardRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.billCard.BillCardRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check bill card returned successfully", "Optional[bill card]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at utilities.Screenshot.capture(Screenshot.java:18)
+	at utilities.Screenshot.saveScreenshot(Screenshot.java:31)
+	at app.tickets.billCard.BillCardStepDef.user_view_bill_card(BillCardStepDef.java:37)
+	at ✽.user view bill card for &quot;Enterprise&quot;(file:///D:/Automation/BDDFramework/src/test/java/app/tickets/billCard/billCard.feature:7)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1629292387", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1629292387'><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at utilities.Screenshot.capture(Screenshot.java:18)
+	at utilities.Screenshot.saveScreenshot(Screenshot.java:31)
+	at app.tickets.billCard.BillCardStepDef.user_view_bill_card(BillCardStepDef.java:37)
+	at ✽.user view bill card for &quot;Enterprise&quot;(file:///D:/Automation/BDDFramework/src/test/java/app/tickets/billCard/billCard.feature:7)
+</pre></div></td>
+<td>0</td>
+<td>app.tickets.billCard.BillCardRunner@6ec8211c</td></tr>
+<tr>
+<td title='app.tickets.usageConsumption.InternetRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.usageConsumption.InternetRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check red internet returned  incase Dxlflag is true and consumption API up & working", "Optional[Usage consumption-Internet card]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+	at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+	at io.appium.java_client.HasSessionDetails.isBrowser(HasSessionDetails.java:86)
+	at io.appium.java_client.AppiumDriver.isBrowser(AppiumDriver.java:271)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.lambda$0(WebDriverUnpackUtility.java:87)
+	at java.util.Optional.map(Unknown Source)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.getCurrentContentType(WebDriverUnpackUtility.java:83)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.getBy(AppiumElementLocator.java:90)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:117)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at app.pages.Home.pressintcardEn(Home.java:160)
+	at app.tickets.usageConsumption.InternetStepDef.check_on_and_card_Based_on(InternetStepDef.java:33)
+	at ✽.check on &quot;You are not subscribed to any bundle.&quot; and &quot;انت غير مشترك في باقة موبايل انترنت.&quot; card   Based on &quot;has no mi&quot;(file:///D:/Automation/BDDFramework/src/test/java/app/tickets/usageConsumption/Internet.feature:5)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace605244604", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace605244604'><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+	at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+	at io.appium.java_client.HasSessionDetails.isBrowser(HasSessionDetails.java:86)
+	at io.appium.java_client.AppiumDriver.isBrowser(AppiumDriver.java:271)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.lambda$0(WebDriverUnpackUtility.java:87)
+	at java.util.Optional.map(Unknown Source)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.getCurrentContentType(WebDriverUnpackUtility.java:83)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.getBy(AppiumElementLocator.java:90)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:117)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at app.pages.Home.pressintcardEn(Home.java:160)
+	at app.tickets.usageConsumption.InternetStepDef.check_on_and_card_Based_on(InternetStepDef.java:33)
+	at ✽.check on &quot;You are not subscribed to any bundle.&quot; and &quot;انت غير مشترك في باقة موبايل انترنت.&quot; card   Based on &quot;has no mi&quot;(file:///D:/Automation/BDDFramework/src/test/java/app/tickets/usageConsumption/Internet.feature:5)
+</pre></div></td>
+<td>5</td>
+<td>app.tickets.usageConsumption.InternetRunner@7276c8cd</td></tr>
+<tr>
+<td title='app.tickets.usageConsumption.InternetRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.usageConsumption.InternetRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check red internet returned  incase Dxlflag is true and consumption API up & working", "Optional[Usage consumption-Internet card]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+	at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+	at io.appium.java_client.HasSessionDetails.isBrowser(HasSessionDetails.java:86)
+	at io.appium.java_client.AppiumDriver.isBrowser(AppiumDriver.java:271)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.lambda$0(WebDriverUnpackUtility.java:87)
+	at java.util.Optional.map(Unknown Source)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.getCurrentContentType(WebDriverUnpackUtility.java:83)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.getBy(AppiumElementLocator.java:90)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:117)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at app.pages.Home.pressintcardEn(Home.java:160)
+	at app.tickets.usageConsumption.InternetStepDef.check_on_and_card_Based_on(InternetStepDef.java:33)
+	at ✽.check on &quot;150&quot; and &quot;150&quot; card   Based on &quot;has extreme&quot;(file:///D:/Automation/BDDFramework/src/test/java/app/tickets/usageConsumption/Internet.feature:5)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1657521272", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1657521272'><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+	at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+	at io.appium.java_client.HasSessionDetails.isBrowser(HasSessionDetails.java:86)
+	at io.appium.java_client.AppiumDriver.isBrowser(AppiumDriver.java:271)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.lambda$0(WebDriverUnpackUtility.java:87)
+	at java.util.Optional.map(Unknown Source)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.getCurrentContentType(WebDriverUnpackUtility.java:83)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.getBy(AppiumElementLocator.java:90)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:117)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at app.pages.Home.pressintcardEn(Home.java:160)
+	at app.tickets.usageConsumption.InternetStepDef.check_on_and_card_Based_on(InternetStepDef.java:33)
+	at ✽.check on &quot;150&quot; and &quot;150&quot; card   Based on &quot;has extreme&quot;(file:///D:/Automation/BDDFramework/src/test/java/app/tickets/usageConsumption/Internet.feature:5)
+</pre></div></td>
+<td>5</td>
+<td>app.tickets.usageConsumption.InternetRunner@7276c8cd</td></tr>
+<tr>
+<td title='app.tickets.usageConsumption.InternetRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.usageConsumption.InternetRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check red internet returned  incase Dxlflag is true and consumption API up & working", "Optional[Usage consumption-Internet card]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+	at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+	at io.appium.java_client.HasSessionDetails.isBrowser(HasSessionDetails.java:86)
+	at io.appium.java_client.AppiumDriver.isBrowser(AppiumDriver.java:271)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.lambda$0(WebDriverUnpackUtility.java:87)
+	at java.util.Optional.map(Unknown Source)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.getCurrentContentType(WebDriverUnpackUtility.java:83)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.getBy(AppiumElementLocator.java:90)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:117)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at app.pages.Home.pressintcardEn(Home.java:160)
+	at app.tickets.usageConsumption.InternetStepDef.check_on_and_card_Based_on(InternetStepDef.java:33)
+	at ✽.check on &quot;500&quot; and &quot;500&quot; card   Based on &quot;has plus bundle&quot;(file:///D:/Automation/BDDFramework/src/test/java/app/tickets/usageConsumption/Internet.feature:5)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace483589979", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace483589979'><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+	at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+	at io.appium.java_client.HasSessionDetails.isBrowser(HasSessionDetails.java:86)
+	at io.appium.java_client.AppiumDriver.isBrowser(AppiumDriver.java:271)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.lambda$0(WebDriverUnpackUtility.java:87)
+	at java.util.Optional.map(Unknown Source)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.getCurrentContentType(WebDriverUnpackUtility.java:83)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.getBy(AppiumElementLocator.java:90)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:117)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at app.pages.Home.pressintcardEn(Home.java:160)
+	at app.tickets.usageConsumption.InternetStepDef.check_on_and_card_Based_on(InternetStepDef.java:33)
+	at ✽.check on &quot;500&quot; and &quot;500&quot; card   Based on &quot;has plus bundle&quot;(file:///D:/Automation/BDDFramework/src/test/java/app/tickets/usageConsumption/Internet.feature:5)
+</pre></div></td>
+<td>5</td>
+<td>app.tickets.usageConsumption.InternetRunner@7276c8cd</td></tr>
+<tr>
+<td title='app.tickets.usageConsumption.RedQoutaRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.usageConsumption.RedQoutaRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check red min & red sms returned  incase Dxlflag is true and consumption API up & working", "Optional[Usage consumption-Red min & sms]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+	at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+	at io.appium.java_client.HasSessionDetails.isBrowser(HasSessionDetails.java:86)
+	at io.appium.java_client.AppiumDriver.isBrowser(AppiumDriver.java:271)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.lambda$0(WebDriverUnpackUtility.java:87)
+	at java.util.Optional.map(Unknown Source)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.getCurrentContentType(WebDriverUnpackUtility.java:83)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.getBy(AppiumElementLocator.java:90)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:117)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at app.pages.Home.pressmincardEn(Home.java:149)
+	at app.tickets.usageConsumption.RedQoutaStepDef.based_on_check_on_and_card(RedQoutaStepDef.java:21)
+	at ✽.Based on &quot;Red&quot; check on &quot;4000&quot; and &quot;4000&quot; card(file:///D:/Automation/BDDFramework/src/test/java/app/tickets/usageConsumption/RedQouta.feature:5)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1631143060", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1631143060'><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at sun.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+	at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+	at io.appium.java_client.HasSessionDetails.isBrowser(HasSessionDetails.java:86)
+	at io.appium.java_client.AppiumDriver.isBrowser(AppiumDriver.java:271)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.lambda$0(WebDriverUnpackUtility.java:87)
+	at java.util.Optional.map(Unknown Source)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.getCurrentContentType(WebDriverUnpackUtility.java:83)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.getBy(AppiumElementLocator.java:90)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:117)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at app.pages.Home.pressmincardEn(Home.java:149)
+	at app.tickets.usageConsumption.RedQoutaStepDef.based_on_check_on_and_card(RedQoutaStepDef.java:21)
+	at ✽.Based on &quot;Red&quot; check on &quot;4000&quot; and &quot;4000&quot; card(file:///D:/Automation/BDDFramework/src/test/java/app/tickets/usageConsumption/RedQouta.feature:5)
+</pre></div></td>
+<td>5</td>
+<td>app.tickets.usageConsumption.RedQoutaRunner@544a2ea6</td></tr>
+<tr>
+<td title='app.tickets.usageConsumption.RedQoutaRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.usageConsumption.RedQoutaRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check red internet returned  incase Dxlflag is true and consumption API up & working", "Optional[Usage consumption-Red min & sms]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+	at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+	at io.appium.java_client.HasSessionDetails.isBrowser(HasSessionDetails.java:86)
+	at io.appium.java_client.AppiumDriver.isBrowser(AppiumDriver.java:271)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.lambda$0(WebDriverUnpackUtility.java:87)
+	at java.util.Optional.map(Unknown Source)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.getCurrentContentType(WebDriverUnpackUtility.java:83)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.getBy(AppiumElementLocator.java:90)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:117)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at app.pages.Home.pressintcardEn(Home.java:160)
+	at app.tickets.usageConsumption.RedQoutaStepDef.check_on_and_card_Based_on(RedQoutaStepDef.java:62)
+	at ✽.check on &quot;20480&quot; and &quot;20480&quot; card  Based on &quot;Red&quot;(file:///D:/Automation/BDDFramework/src/test/java/app/tickets/usageConsumption/RedQouta.feature:17)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace313249054", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace313249054'><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at sun.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+	at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+	at io.appium.java_client.HasSessionDetails.isBrowser(HasSessionDetails.java:86)
+	at io.appium.java_client.AppiumDriver.isBrowser(AppiumDriver.java:271)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.lambda$0(WebDriverUnpackUtility.java:87)
+	at java.util.Optional.map(Unknown Source)
+	at io.appium.java_client.pagefactory.utils.WebDriverUnpackUtility.getCurrentContentType(WebDriverUnpackUtility.java:83)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.getBy(AppiumElementLocator.java:90)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:117)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
+	at app.pages.Home.pressintcardEn(Home.java:160)
+	at app.tickets.usageConsumption.RedQoutaStepDef.check_on_and_card_Based_on(RedQoutaStepDef.java:62)
+	at ✽.check on &quot;20480&quot; and &quot;20480&quot; card  Based on &quot;Red&quot;(file:///D:/Automation/BDDFramework/src/test/java/app/tickets/usageConsumption/RedQouta.feature:17)
+</pre></div></td>
+<td>5</td>
+<td>app.tickets.usageConsumption.RedQoutaRunner@544a2ea6</td></tr>
+<tr>
+<td title='app.tickets.usagemanagment.MinandSmsRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.usagemanagment.MinandSmsRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check  data under Min card returned successfully from Managment Api", "Optional[Usagemanagment]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.InteractsWithApps.resetApp(InteractsWithApps.java:93)
+	at app.pages.PageObject.launchApp(PageObject.java:21)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace735639515", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace735639515'><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at sun.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.InteractsWithApps.resetApp(InteractsWithApps.java:93)
+	at app.pages.PageObject.launchApp(PageObject.java:21)
+</pre></div></td>
+<td>5</td>
+<td>app.tickets.usagemanagment.MinandSmsRunner@2e3fc542</td></tr>
+<tr>
+<td title='app.tickets.usagemanagment.MinandSmsRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.usagemanagment.MinandSmsRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check  data under Min card returned successfully from Managment Api", "Optional[Usagemanagment]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.InteractsWithApps.resetApp(InteractsWithApps.java:93)
+	at app.pages.PageObject.launchApp(PageObject.java:21)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1831423452", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1831423452'><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at sun.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.InteractsWithApps.resetApp(InteractsWithApps.java:93)
+	at app.pages.PageObject.launchApp(PageObject.java:21)
+</pre></div></td>
+<td>5</td>
+<td>app.tickets.usagemanagment.MinandSmsRunner@2e3fc542</td></tr>
+<tr>
+<td title='app.tickets.usagemanagment.MinandSmsRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.usagemanagment.MinandSmsRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check  data under SMS card returned successfully from Managment Api", "Optional[Usagemanagment]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.InteractsWithApps.resetApp(InteractsWithApps.java:93)
+	at app.pages.PageObject.launchApp(PageObject.java:21)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1138190994", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1138190994'><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IT3ANCVR&apos;, ip: &apos;10.144.242.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, databaseEnabled: false, desired: {appActivity: vodafone.vis.engezly.ui.scr..., appPackage: com.emeint.android.myservices, deviceName: Google Emulator, fullReset: false, language: ar, locale: EG, noReset: false, platformName: android, systemPort: 10000}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, fullReset: false, javascriptEnabled: true, language: ar, locale: EG, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, systemPort: 10000, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 583587db-a21d-4aa6-b85f-280d2e014de2
+	at sun.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.InteractsWithApps.resetApp(InteractsWithApps.java:93)
+	at app.pages.PageObject.launchApp(PageObject.java:21)
+</pre></div></td>
+<td>5</td>
+<td>app.tickets.usagemanagment.MinandSmsRunner@2e3fc542</td></tr>
+<tr>
+<td title='app.tickets.flexes.FlexRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.flexes.FlexRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Flex returned  incase Dxlflag is true and consumption API up & working", "Optional[Usage consumption-flexes]"</td>
+<td><div><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in app.tickets.usageConsumption.InternetStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String) and app.tickets.usagemanagment.MinandSmsStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String)
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:241)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:235)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:68)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:115)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:131)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:112)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace303638020", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace303638020'><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in app.tickets.usageConsumption.InternetStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String) and app.tickets.usagemanagment.MinandSmsStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String)
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:241)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:235)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:68)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:115)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:131)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:112)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at sun.reflect.GeneratedMethodAccessor98.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>app.tickets.flexes.FlexRunner@150c158</td></tr>
+<tr>
+<td title='app.tickets.flexes.FlexRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.flexes.FlexRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Flex returned  incase Dxlflag is true and consumption API up & working", "Optional[Usage consumption-flexes]"</td>
+<td><div><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in app.tickets.usageConsumption.InternetStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String) and app.tickets.usagemanagment.MinandSmsStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String)
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:241)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:235)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:68)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:115)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:131)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:112)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace589094312", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace589094312'><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in app.tickets.usageConsumption.InternetStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String) and app.tickets.usagemanagment.MinandSmsStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String)
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:241)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:235)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:68)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:115)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:131)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:112)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at sun.reflect.GeneratedMethodAccessor98.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>app.tickets.flexes.FlexRunner@150c158</td></tr>
+<tr>
+<td title='app.tickets.inaddons.InAddonRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.inaddons.InAddonRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate In Addons returned successfully", "Optional[In Addons]"</td>
+<td><div><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in app.tickets.usageConsumption.InternetStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String) and app.tickets.usagemanagment.MinandSmsStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String)
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:241)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:235)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:68)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:115)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:131)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:112)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1512759723", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1512759723'><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in app.tickets.usageConsumption.InternetStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String) and app.tickets.usagemanagment.MinandSmsStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String)
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:241)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:235)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:68)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:115)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:131)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:112)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at sun.reflect.GeneratedMethodAccessor98.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>app.tickets.inaddons.InAddonRunner@4524411f</td></tr>
+<tr>
+<td title='app.tickets.inaddons.InAddonRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.inaddons.InAddonRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate In Addons returned successfully", "Optional[In Addons]"</td>
+<td><div><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in app.tickets.usageConsumption.InternetStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String) and app.tickets.usagemanagment.MinandSmsStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String)
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:241)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:235)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:68)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:115)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:131)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:112)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2103044456", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2103044456'><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in app.tickets.usageConsumption.InternetStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String) and app.tickets.usagemanagment.MinandSmsStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String)
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:241)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:235)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:68)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:115)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:131)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:112)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at sun.reflect.GeneratedMethodAccessor98.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>app.tickets.inaddons.InAddonRunner@4524411f</td></tr>
+<tr>
+<td title='app.tickets.vov.VOVRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.vov.VOVRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that recharge card appears in prepaid number that has balance < 10LE", "Optional[VOV cards]"</td>
+<td><div><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in app.tickets.usageConsumption.InternetStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String) and app.tickets.usagemanagment.MinandSmsStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String)
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:241)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:235)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:68)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:115)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:131)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:112)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1483522397", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1483522397'><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in app.tickets.usageConsumption.InternetStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String) and app.tickets.usagemanagment.MinandSmsStepDef.user_logged_in_using_jwt_using_and(java.lang.String,java.lang.String)
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:241)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:235)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:68)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:115)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:131)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:112)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at sun.reflect.GeneratedMethodAccessor98.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>app.tickets.vov.VOVRunner@401e7803</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='app.tickets.login.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.login.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user login with registered msisdn and valid/invalid password", "Optional[Login]"</td>
+<td></td>
+<td>36</td>
+<td>app.tickets.login.LoginRunner@782663d3</td></tr>
+<tr>
+<td title='app.tickets.login.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.login.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user login with registered msisdn and valid/invalid password", "Optional[Login]"</td>
+<td></td>
+<td>27</td>
+<td>app.tickets.login.LoginRunner@782663d3</td></tr>
+<tr>
+<td title='app.tickets.loyalty.LoyaltyRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.loyalty.LoyaltyRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "check DXL_FLAG and  update the UI accordingly.", "Optional[Red Loyalty points module]"</td>
+<td></td>
+<td>34</td>
+<td>app.tickets.loyalty.LoyaltyRunner@1990a65e</td></tr>
+<tr>
+<td title='app.tickets.loyalty.LoyaltyRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.loyalty.LoyaltyRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "check DXL_FLAG and  update the UI accordingly.", "Optional[Red Loyalty points module]"</td>
+<td></td>
+<td>37</td>
+<td>app.tickets.loyalty.LoyaltyRunner@1990a65e</td></tr>
+<tr>
+<td title='app.tickets.loyalty.LoyaltyRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.loyalty.LoyaltyRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "check red loyalty eligibility", "Optional[Red Loyalty points module]"</td>
+<td></td>
+<td>38</td>
+<td>app.tickets.loyalty.LoyaltyRunner@1990a65e</td></tr>
+<tr>
+<td title='app.tickets.loyalty.LoyaltyRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.loyalty.LoyaltyRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "check red loyalty eligibility", "Optional[Red Loyalty points module]"</td>
+<td></td>
+<td>33</td>
+<td>app.tickets.loyalty.LoyaltyRunner@1990a65e</td></tr>
+<tr>
+<td title='app.tickets.loyalty.LoyaltyRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.loyalty.LoyaltyRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "check red loyalty eligibility", "Optional[Red Loyalty points module]"</td>
+<td></td>
+<td>32</td>
+<td>app.tickets.loyalty.LoyaltyRunner@1990a65e</td></tr>
+<tr>
+<td title='app.tickets.usageConsumption.BalanceRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.usageConsumption.BalanceRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check balance returned successfully", "Optional[Balance card]"</td>
+<td></td>
+<td>29</td>
+<td>app.tickets.usageConsumption.BalanceRunner@64485a47</td></tr>
+<tr>
+<td title='app.tickets.usageConsumption.BalanceRunner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.usageConsumption.BalanceRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check balance returned successfully", "Optional[Balance card]"</td>
+<td></td>
+<td>25</td>
+<td>app.tickets.usageConsumption.BalanceRunner@64485a47</td></tr>
+<tr>
+<td title='app.tickets.team010.Team010Runner.runScenario()'><b>runScenario</b><br>Test class: app.tickets.team010.Team010Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check 010 team returned successfully", "Optional[team 010 card]"</td>
+<td></td>
+<td>33</td>
+<td>app.tickets.team010.Team010Runner@25bbf683</td></tr>
+</table><p>
+</body>
+</html>
